@@ -34,3 +34,7 @@ def list_phones(request):
         ]
     }
     return render(request, 'phones.html', context)
+
+
+def show_forms_demo(request):
+    return render(request, 'forms_demo.html')
